@@ -1,0 +1,31 @@
+<div class="col-12">
+  <p class="text-justify">
+    Phasellus dictum, justo mollis aliquam tempor, nibh ligula fermentum turpis, quis commodo mauris nibh et metus.
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed gravida diam
+    nec
+    vulputate convallis. Nam sagittis lacinia mollis. In hac habitasse platea dictumst. Sed eu tellus id quam
+    pellentesque cursus. Phasellus accumsan placerat arcu eget ornare. Morbi sed bibendum lacus. Donec quis mollis
+    nulla, et egestas velit.
+  </p>
+  <br>
+  <h2>Posts List</h2>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">User ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Body</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let post of posts">
+      <th scope="row">{{post.id}}</th>
+      <td>{{post.userId}}</td>
+      <td>{{post.title}}</td>
+      <td>{{post.body}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <br>
+</div>
