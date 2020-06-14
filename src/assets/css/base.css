@@ -1,0 +1,29 @@
+no-margin{
+    margin: 0px 0px 0px 0px;
+}
+
+no-padding{
+    padding: 0px 0px 0px 0px;
+}
+
+/*  header
+-------------------------------------------------- */
+header {
+    padding: 10px 10px 10px 10px;
+}
+
+img.logo {
+   height: 120px;
+   width: 200px;
+   margin-bottom: 10px;
+}
+
+/*  footer
+-------------------------------------------------- */
+footer {
+    padding: 10px 10px 10px 10px;
+}
+
+footer .sub-footer{
+    margin-bottom: 10px;
+}
